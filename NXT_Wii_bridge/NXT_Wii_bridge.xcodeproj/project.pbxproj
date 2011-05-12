@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4574AC4137C3A740046C2FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4574AC3137C3A740046C2FD /* Cocoa.framework */; };
+		D4574ACE137C3A740046C2FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4574ACC137C3A740046C2FD /* InfoPlist.strings */; };
+		D4574AD1137C3A740046C2FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4574AD0137C3A740046C2FD /* main.m */; };
+		D4574AD4137C3A740046C2FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4574AD2137C3A740046C2FD /* Credits.rtf */; };
+		D4574AD7137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4574AD6137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.m */; };
+		D4574ADA137C3A750046C2FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4574AD8137C3A750046C2FD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4574ABF137C3A740046C2FD /* NXT_Wii_bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXT_Wii_bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4574AC3137C3A740046C2FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D4574AC6137C3A740046C2FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4574AC7137C3A740046C2FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D4574AC8137C3A740046C2FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4574ACB137C3A740046C2FD /* NXT_Wii_bridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NXT_Wii_bridge-Info.plist"; sourceTree = "<group>"; };
+		D4574ACD137C3A740046C2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4574ACF137C3A740046C2FD /* NXT_Wii_bridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NXT_Wii_bridge-Prefix.pch"; sourceTree = "<group>"; };
+		D4574AD0137C3A740046C2FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4574AD3137C3A740046C2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D4574AD5137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXT_Wii_bridgeAppDelegate.h; sourceTree = "<group>"; };
+		D4574AD6137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXT_Wii_bridgeAppDelegate.m; sourceTree = "<group>"; };
+		D4574AD9137C3A750046C2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4574ABC137C3A740046C2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4574AC4137C3A740046C2FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4574AB4137C3A740046C2FD = {
+			isa = PBXGroup;
+			children = (
+				D4574AC9137C3A740046C2FD /* NXT_Wii_bridge */,
+				D4574AC2137C3A740046C2FD /* Frameworks */,
+				D4574AC0137C3A740046C2FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4574AC0137C3A740046C2FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4574ABF137C3A740046C2FD /* NXT_Wii_bridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4574AC2137C3A740046C2FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4574AC3137C3A740046C2FD /* Cocoa.framework */,
+				D4574AC5137C3A740046C2FD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4574AC5137C3A740046C2FD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4574AC6137C3A740046C2FD /* AppKit.framework */,
+				D4574AC7137C3A740046C2FD /* CoreData.framework */,
+				D4574AC8137C3A740046C2FD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D4574AC9137C3A740046C2FD /* NXT_Wii_bridge */ = {
+			isa = PBXGroup;
+			children = (
+				D4574AD5137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.h */,
+				D4574AD6137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.m */,
+				D4574AD8137C3A750046C2FD /* MainMenu.xib */,
+				D4574ACA137C3A740046C2FD /* Supporting Files */,
+			);
+			path = NXT_Wii_bridge;
+			sourceTree = "<group>";
+		};
+		D4574ACA137C3A740046C2FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4574ACB137C3A740046C2FD /* NXT_Wii_bridge-Info.plist */,
+				D4574ACC137C3A740046C2FD /* InfoPlist.strings */,
+				D4574ACF137C3A740046C2FD /* NXT_Wii_bridge-Prefix.pch */,
+				D4574AD0137C3A740046C2FD /* main.m */,
+				D4574AD2137C3A740046C2FD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4574ABE137C3A740046C2FD /* NXT_Wii_bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4574ADD137C3A750046C2FD /* Build configuration list for PBXNativeTarget "NXT_Wii_bridge" */;
+			buildPhases = (
+				D4574ABB137C3A740046C2FD /* Sources */,
+				D4574ABC137C3A740046C2FD /* Frameworks */,
+				D4574ABD137C3A740046C2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXT_Wii_bridge;
+			productName = NXT_Wii_bridge;
+			productReference = D4574ABF137C3A740046C2FD /* NXT_Wii_bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4574AB6137C3A740046C2FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Gulbaek I/S";
+			};
+			buildConfigurationList = D4574AB9137C3A740046C2FD /* Build configuration list for PBXProject "NXT_Wii_bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4574AB4137C3A740046C2FD;
+			productRefGroup = D4574AC0137C3A740046C2FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4574ABE137C3A740046C2FD /* NXT_Wii_bridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4574ABD137C3A740046C2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4574ACE137C3A740046C2FD /* InfoPlist.strings in Resources */,
+				D4574AD4137C3A740046C2FD /* Credits.rtf in Resources */,
+				D4574ADA137C3A750046C2FD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4574ABB137C3A740046C2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4574AD1137C3A740046C2FD /* main.m in Sources */,
+				D4574AD7137C3A750046C2FD /* NXT_Wii_bridgeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4574ACC137C3A740046C2FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4574ACD137C3A740046C2FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4574AD2137C3A740046C2FD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4574AD3137C3A740046C2FD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D4574AD8137C3A750046C2FD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4574AD9137C3A750046C2FD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4574ADB137C3A750046C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4574ADC137C3A750046C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4574ADE137C3A750046C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NXT_Wii_bridge/NXT_Wii_bridge-Prefix.pch";
+				INFOPLIST_FILE = "NXT_Wii_bridge/NXT_Wii_bridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4574ADF137C3A750046C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NXT_Wii_bridge/NXT_Wii_bridge-Prefix.pch";
+				INFOPLIST_FILE = "NXT_Wii_bridge/NXT_Wii_bridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4574AB9137C3A740046C2FD /* Build configuration list for PBXProject "NXT_Wii_bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4574ADB137C3A750046C2FD /* Debug */,
+				D4574ADC137C3A750046C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4574ADD137C3A750046C2FD /* Build configuration list for PBXNativeTarget "NXT_Wii_bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4574ADE137C3A750046C2FD /* Debug */,
+				D4574ADF137C3A750046C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4574AB6137C3A740046C2FD /* Project object */;
+}
