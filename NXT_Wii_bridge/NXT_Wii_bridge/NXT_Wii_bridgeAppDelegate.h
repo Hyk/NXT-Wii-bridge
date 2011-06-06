@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+//HYK TEST
 @interface NXT_Wii_bridgeAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
