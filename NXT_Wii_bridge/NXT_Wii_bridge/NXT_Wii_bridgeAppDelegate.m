@@ -15,6 +15,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    // Have to read something in my book first!
 }
 
 @end
